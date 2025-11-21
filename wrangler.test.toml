@@ -8,7 +8,7 @@ pages_build_output_dir = ".vercel/output/static"
 [[d1_databases]]
 binding = "DB"
 database_name = "cloudflare-worker-template-test"
-database_id = "f2aae4f2-b6c6-434c-88a1-fe7667958bb7"
+database_id = "332d2c65-34a8-4a41-bcc6-a31f59a1f3bd"
 migrations_dir = "migrations"
 
 # R2 bucket binding
@@ -19,10 +19,11 @@ bucket_name = "cloudflare-worker-template-test"
 # KV namespace
 [[kv_namespaces]]
 binding = "KV"
-id = "d45eef82c64443939acaa1dc2b45aa95"
+id = "8ab7da3293644fb48cf4380d9b81638b"
 
 # Environment variables
 [vars]
 ENVIRONMENT = "test"
 ANALYTICS_SINK = "kv"
+NEXTAUTH_SECRET = "sxd+YAAhj8N/bDNPFMKW7i92p+swQsqAtXsA3lk1CPc="
 # Configure NEXTAUTH_SECRET via `wrangler secret put NEXTAUTH_SECRET` to keep secrets out of source control
